@@ -1,1 +1,66 @@
+#include <stdio.h>
 
+int main() {
+  float num, soma;
+  printf("\nDigite um número: ");
+  scanf("%f", &num);
+  soma = num + 5;
+  printf("\nO valor da variável 'num' é: %.0f", soma);
+
+  return 0;
+}
+///////////////////////////////////////////////////////////
+#include <stdio.h>
+
+int main() {
+  char letra;
+  printf("\nDigite uma letra: ");
+  scanf("%c", &letra);
+
+  printf("\nO valor da soma é: %d", soma);
+  return 0;
+}
+//////////////////////////////////////////////////////////
+//Estruturas condicionais
+
+//exemplo:
+IF = se
+Else = condição
+
+
+/////////////////////////////////////////////////////////
+NOME = CONDICIONAIS
+int a
+printf para ler variavel
+ler un numero inteiro ("%d,%a")
+
+#include <stdio.h>
+
+int main() {
+  int a
+  printf("\nDigite um numero: ");
+  scanf("%d", &a);
+
+  printf("\nO valor da soma é: %d", soma);
+  return 0;
+}
+
+
+  //OPERADOS DE COMPARAÇÃO
+  //  == COMPARADOR DE IGUALDADE
+  //  > COMPARADOR DE MAIOR
+  //  < COMPARADOR DE MENOR
+  //  >= COMPARADOR DE MAIOR IGUAL
+  //  <= COMPARADOR DE MENOR IGUAL
+  //  != COMPARADOR DE DIFERENÇA
+  
+  if(a==0)//teste
+  {
+      printf("A variavel 'a' é 0")
+  }
+  else
+  {
+    printf("A variavel 'a' é diferente de 0")
+  }
+  return 0;
+}
