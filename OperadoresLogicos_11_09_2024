@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main() {
+
+  int a,b,c;
+
+  printf("\nDigite um número: ");
+  scanf("%d", &a);
+
+  printf("\nDigite um número: ");
+  scanf("%d", &b);
+
+  printf("\nDigite um número: ");
+  scanf("%d", &c);
+
+  if(a==b){
+  
+    if(b==c){
+      printf("a,b,c tem valores iguais");
+    }
+  }
+  //como simplificar? Usando Operadores lógico
+  if (a==b && b==c)
+
+  //&& Operador lógico E, obriga que todas as condições sejam verdadeiras
+
+  //|| Operador lógico OU, obriga que pelo menos uma das condições se
+
+  //! Operador lógico NÃO, obriga que as condições sejam diferentes
+  {
+    printf("a,b,c tem valores iguais");
+  }
+
+
+  
+  return 0;
+}
+
+//Laço de Repetição
+
+//Laço de iteração
+
+//Loops
+
+//2 laças de repetição
+
+//while = enquanto
+//For = para permite que uma variável contadora seja testada e incrementada a cada interação,
+
+//{} eu uso chaves para delimitar o bloco de código
