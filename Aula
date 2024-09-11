@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+  int num;
+  int soma;
+  printf("\nDigite um número: ");
+  scanf("%d", &num);
+  soma = num + 5;
+  printf("\nO valor da soma é: %d", soma);
+
+  return 0;
+}
