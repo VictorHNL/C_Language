@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(){
+  
+  printf("\nlaço FOR\n");
+  // for (inicialização; teste; incremento).
+  for (int i = 0; i < 10; i++){
+    printf("\n A variavel 'i' é: %d ", i);
+  }
+}
