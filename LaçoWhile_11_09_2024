@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+  printf("\nlaço while\n");
+  int a = 0;
+  while(a < 5) //dentro da condição do while eu vou verificar se 0 a <0.
+    {
+      printf("\na variavel 'a' e: %d", a);
+      a++;//a=a+1;
+    }
+    
+}
